@@ -1,0 +1,41 @@
+.root {
+    display          : flex;
+    align-items      : center;
+    /*justify-content  : center;*/
+    flex-direction   : column;
+    padding          : 24px;
+    background-color : #fff;;
+    height           : 100%;
+}
+
+.root h1 {
+    display         : flex;
+    color           : #1e1e1e;
+    align-items     : center;
+    justify-content : center;
+    margin: 0;
+}
+
+.root p {
+    display         : flex;
+    color           : #1e1e1e;
+    align-items     : center;
+    justify-content : center;
+}
+
+.container {
+    display        : flex;
+    flex-direction : column;
+    row-gap        : 24px;
+}
+
+.root a {
+    width           : 250px;
+    min-height      : 50px;
+    background      : #449dfe;
+    color           : white;
+    border-radius   : 8px;
+    align-items     : center;
+    justify-content : center;
+    display         : flex;
+}

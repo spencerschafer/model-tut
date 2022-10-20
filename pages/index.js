@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "../styles/Home.module.css"
 
 export default function Home() {
@@ -6,11 +7,11 @@ export default function Home() {
             <h1>Quokka Demo</h1>
             <p>Spencer Schafer</p>
             <div className={styles.container}>
-                <a href={'/skates'}>Roller skates</a>
-                <a href={'/table'}>Bedside Table</a>
-                <a href={'/hoodie'}>Hoodie</a>
-                <a href={'/shoe'}>Shoe</a>
-                <a href={'/toaster'}>Toaster</a>
+                <Link href={'/skates'}>Roller skates</Link>
+                <Link href={'/table'}>Bedside Table</Link>
+                <Link href={'/hoodie'}>Hoodie</Link>
+                <Link href={'/shoe'}>Shoe</Link>
+                <Link href={'/toaster'}>Toaster</Link>
             </div>
         </div>
     )

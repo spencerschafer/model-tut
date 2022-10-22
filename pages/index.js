@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css"
 export default function Home() {
     return (
         <div className={styles.root}>
-            <h1>Quokka Demo</h1>
+            <h1>Software by Quokka Demo</h1>
             <p>Spencer Schafer</p>
             <div className={styles.container}>
                 <Link href={'/skates'}>Roller skates</Link>
